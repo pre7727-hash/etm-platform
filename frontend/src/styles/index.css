@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Orbitron:wght@700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; background: #03050a; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: #03050a; }
+.stars { background-image: radial-gradient(circle, rgba(22, 217, 255, 0.75) 1px, transparent 1px); background-size: 120px 120px; mask-image: linear-gradient(to bottom, black, transparent 85%); opacity: 0.45; }
